@@ -451,13 +451,14 @@ text-transform: uppercase;
   height: 44px;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  fill: var(--white_color_text);
   display: flex;
   justify-content: center;
   align-items: center;
 
 }
-
+.social-media-foot .block a {
+  fill: var(--white_color_text);
+}
 .social-media-foot .block:hover,
 .social-media-foot .block:focus,
 .social-media-foot .block:active, 
