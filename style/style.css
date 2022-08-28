@@ -145,17 +145,15 @@ ul > .linknow a {
   color: var(--second_text_color);
   align-items: center;
 }
-.mailphone-head:hover {
+.phone-mail .mailphone-head:hover{
   color: var(--hover_text_color);
-  fill: var(--hover_text_color);
 }
-.mailphone-head:focus {
+.phone-mail .mailphone-head:focus {
   color: var(--hover_text_color);
-  fill: var(--hover_text_color);
 }
 .phone-mail .icon {
   margin-right: 10px;
-  fill: var(--second_text_color);
+  fill: currentColor;
 }
 /* BIG IMAGE */
 .hero {
